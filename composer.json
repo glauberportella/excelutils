@@ -1,0 +1,21 @@
+{
+    "name": "glauberportella/excelutils",
+    "description": "Some util tools to work with MS Excel spreedsheet",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glauber Portella",
+            "email": "glauberportella@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
